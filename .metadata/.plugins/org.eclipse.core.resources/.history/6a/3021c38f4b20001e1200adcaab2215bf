@@ -1,0 +1,17 @@
+package dev.woori.kkiri.boot.model;
+
+import javax.annotation.Generated;
+
+public class BaseEntity {
+
+	@Id
+	@Generated
+	private Long id;
+
+	public BaseEntity(Long id) {
+		super();
+		this.id = id;
+	}
+	
+	
+}
