@@ -23,7 +23,7 @@ import lombok.Setter;
 public class Post extends BaseEntity{
 	
 	@ManyToOne
-	@JoinColumn(name = "user_id")
+	@JoinColumn
 	private User user;
 	
 	private String title;
@@ -33,27 +33,26 @@ public class Post extends BaseEntity{
 	
 	private String content;
 	
-	private List<String> photo;
+	//private List<String> photo;
 	
 	@Column(name = "is_recruit")
 	private boolean isRecruit;
 
 	@Builder
-	public Post(Long id, User user, String title, Date postDate, String content, List<String> photo,
+	public Post(Long id, User user, String title, Date postDate, String content,
 			boolean isRecruit) {
 		super(id);
 		this.user = user;
 		this.title = title;
 		this.postDate = postDate;
 		this.content = content;
-		this.photo = photo;
 		this.isRecruit = isRecruit;
 	}
 
 	@Override
 	public String toString() {
 		return "Post [user=" + user + ", title=" + title + ", postDate=" + postDate + ", content=" + content
-				+ ", photo=" + photo + ", isRecruit=" + isRecruit + "]";
+				+ ", isRecruit=" + isRecruit + "]";
 	}
 
 }

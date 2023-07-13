@@ -1,6 +1,0 @@
-package dev.woori.kkiri.boot.model;
-
-public class User {
-	private Long id;
-	
-}
