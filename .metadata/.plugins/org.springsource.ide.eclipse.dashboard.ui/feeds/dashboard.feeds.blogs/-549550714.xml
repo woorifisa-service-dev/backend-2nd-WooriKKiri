@@ -1,4 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Spring]]></title><description><![CDATA[Level up your Java code and explore what Spring can do for you.]]></description><link>https://spring.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 11 Jul 2023 23:05:23 GMT</lastBuildDate><item><title><![CDATA[Spring Initializr 0.20.0 available now]]></title><link>https://spring.io/blog/2023/07/11/spring-initializr-0-20-0-available-now</link><guid isPermaLink="true">https://spring.io/blog/2023/07/11/spring-initializr-0-20-0-available-now</guid><dc:creator><![CDATA[St?phane Nicoll]]></dc:creator><pubDate>Tue, 11 Jul 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;On behalf of the team and everyone who has contributed, I&apos;m happy to announce that Spring Initializr &lt;code&gt;0.20.0&lt;/code&gt; has been released and is now available from Maven Central.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Spring]]></title><description><![CDATA[Level up your Java code and explore what Spring can do for you.]]></description><link>https://spring.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 13 Jul 2023 09:48:05 GMT</lastBuildDate><item><title><![CDATA[Spring Framework 5.2.25.RELEASE, 5.3.29 and 6.0.11 available now]]></title><link>https://spring.io/blog/2023/07/13/spring-framework-5-2-25-release-5-3-29-and-6-0-11-available-now</link><guid isPermaLink="true">https://spring.io/blog/2023/07/13/spring-framework-5-2-25-release-5-3-29-and-6-0-11-available-now</guid><dc:creator><![CDATA[Brian Clozel]]></dc:creator><pubDate>Thu, 13 Jul 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;On behalf of the team and everyone who has contributed, I am pleased to announce that Spring Framework &lt;code&gt;5.2.25.RELEASE&lt;/code&gt;, &lt;code&gt;5.3.29&lt;/code&gt; and &lt;code&gt;6.0.11&lt;/code&gt; are available now.&lt;/p&gt;
+&lt;p&gt;Spring Framework &lt;code&gt;5.2.25.RELEASE&lt;/code&gt; ships with &lt;a href=&quot;https://github.com/spring-projects/spring-framework/releases/tag/v5.2.25.RELEASE&quot;&gt;2 fixes improvements&lt;/a&gt;. This is an out-of-cycle release that will not be shipped with a new Spring Boot version, &lt;a href=&quot;https://spring.io/projects/spring-boot#support&quot;&gt;as Spring Boot 2.3.x is EOL&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Spring Framework &lt;code&gt;5.3.29&lt;/code&gt; ships with &lt;a href=&quot;https://github.com/spring-projects/spring-framework/releases/tag/v5.3.29&quot;&gt;22 fixes and documentation improvements&lt;/a&gt;, including &lt;a href=&quot;https://github.com/spring-projects/spring-framework/issues?q=is%3Aclosed+milestone%3A5.3.29+label%3A%22type%3A+regression%22&quot;&gt;3 fixes for regressions&lt;/a&gt;. This version will be shipped with Spring Boot 2.7.14, &lt;a href=&quot;https://calendar.spring.io/&quot;&gt;to be released next week&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Spring Framework &lt;code&gt;6.0.11&lt;/code&gt; ships with &lt;a href=&quot;https://github.com/spring-projects/spring-framework/releases/tag/v6.0.11&quot;&gt;71 fixes and documentation improvements&lt;/a&gt;, including &lt;a href=&quot;https://github.com/spring-projects/spring-framework/issues?q=is%3Aclosed+milestone%3A6.0.11+label%3A%22type%3A+regression%22&quot;&gt;7 fixes for regressions&lt;/a&gt;. This version will be shipped with Spring Boot 3.0.9 and 3.1.2, &lt;a href=&quot;https://calendar.spring.io/&quot;&gt;to be released next week&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The next Spring Framework releases are scheduled for August 17th with the last 6.1.0 milestone. On September 14th we are expecting a new 6.0.x maintenance release and the first release candidate for 6.1.0.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://spring.io/projects/spring-framework/&quot;&gt;Project Page&lt;/a&gt; | &lt;a href=&quot;https://github.com/spring-projects/spring-framework&quot;&gt;GitHub&lt;/a&gt; | &lt;a href=&quot;https://github.com/spring-projects/spring-framework/issues&quot;&gt;Issues&lt;/a&gt; | &lt;a href=&quot;https://docs.spring.io/spring-framework/reference/&quot;&gt;Documentation&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Spring Web Flow 3.0.0 Released]]></title><link>https://spring.io/blog/2023/07/13/spring-web-flow-3-0-0-released</link><guid isPermaLink="true">https://spring.io/blog/2023/07/13/spring-web-flow-3-0-0-released</guid><dc:creator><![CDATA[Rossen Stoyanchev]]></dc:creator><pubDate>Thu, 13 Jul 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;I&apos;m pleased to announce the availability of Spring Web Flow 3.0.0. This release is all about compatibility with Spring Framework 6 and Jakarta EE. The &lt;a href=&quot;https://github.com/spring-projects/spring-webflow-samples&quot;&gt;spring-webflow-sampes&lt;/a&gt; have been updated, and the commit history provides an example of changes necessary to upgrade. One significant change is the need to remove Tiles which has not migrated to Jakarta EE. The booking-mvc sample now  uses Thymeleaf Layouts instead.&lt;/p&gt;
+&lt;p&gt;Once again special thanks to Ian Young, Scott Cantor, and
+G?bor Lipt?k for your help to make these updates available to the community!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[A Bootiful Podcast: Spring Framework and Spring Boot legend St?phane Nicoll on a Bootiful Podcast]]></title><link>https://spring.io/blog/2023/07/13/a-bootiful-podcast-spring-framework-and-spring-boot-legend-stephane-nicoll</link><guid isPermaLink="true">https://spring.io/blog/2023/07/13/a-bootiful-podcast-spring-framework-and-spring-boot-legend-stephane-nicoll</guid><dc:creator><![CDATA[Josh Long]]></dc:creator><pubDate>Thu, 13 Jul 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hi, Spring fans! Welcome to another installment of &lt;em&gt;A Bootiful Podcast&lt;/em&gt;! In this installment, &lt;a href=&quot;https://youtube.com/@coffeesoftware&quot;&gt;Josh Long&lt;/a&gt; talk to Spring team legend &lt;a href=&quot;https://twitter.com/snicoll&quot;&gt;St?phane Nicoll (@snicoll)&lt;/a&gt; about Spring Boot, Apache Maven and Gradle, his journey to the Spring team, and so much more. This episode was recorded live from beautiful Barcelona, Spain, from the epic Spring I/O event in May of 2023!&lt;/p&gt;
+&lt;iframe title=&quot;Spring Framework and Spring Boot legend St?phane Nicoll on a Bootiful Podcast&quot; allowtransparency=&quot;true&quot; height=&quot;150&quot; width=&quot;100%&quot; style=&quot;border: none; min-width: min(100%, 430px);height:150px;&quot; scrolling=&quot;no&quot; data-name=&quot;pb-iframe-player&quot; src=&quot;https://www.podbean.com/player-v2/?i=4cw8d-1455498-pb&amp;from=pb6admin&amp;share=1&amp;download=1&amp;rtl=0&amp;fonts=Arial&amp;skin=1&amp;font-color=&amp;logo_link=episode_page&amp;btn-skin=7&quot; loading=&quot;lazy&quot;&gt;&lt;/iframe&gt;</content:encoded></item><item><title><![CDATA[Spring Initializr 0.20.0 available now]]></title><link>https://spring.io/blog/2023/07/11/spring-initializr-0-20-0-available-now</link><guid isPermaLink="true">https://spring.io/blog/2023/07/11/spring-initializr-0-20-0-available-now</guid><dc:creator><![CDATA[St?phane Nicoll]]></dc:creator><pubDate>Tue, 11 Jul 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;On behalf of the team and everyone who has contributed, I&apos;m happy to announce that Spring Initializr &lt;code&gt;0.20.0&lt;/code&gt; has been released and is now available from Maven Central.&lt;/p&gt;
 &lt;p&gt;This release adds a number of &lt;a href=&quot;https://github.com/spring-io/initializr/releases/tag/v0.20.0&quot;&gt;new features and improvements&lt;/a&gt;. For full upgrade instructions and new and noteworthy features please see the &lt;a href=&quot;https://github.com/spring-io/initializr/wiki/Spring-Initializr-0.20-Release-Notes&quot;&gt;release notes&lt;/a&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Azure Spring Apps Enterprise ? More Power, Scalability & Extended Spring Boot Support]]></title><link>https://spring.io/blog/2023/07/11/azure-spring-apps-enterprise-more-power-scalability-and-extended-spring-boot</link><guid isPermaLink="true">https://spring.io/blog/2023/07/11/azure-spring-apps-enterprise-more-power-scalability-and-extended-spring-boot</guid><dc:creator><![CDATA[Josh Long]]></dc:creator><pubDate>Tue, 11 Jul 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Can you believe Spring is celebrating its 20th anniversary this year?  We could not have gotten here without our millions of Spring developers across the globe, thank you! Spring has been an essential tool for Java developers, and it continues to grow and innovate at a fast pace. From the onset, Azure and VMware Tanzu have been trusted partners to customers for running mission-critical Java and Spring workloads. Our commitment and fondness for the Java Spring developer community have never wavered.&lt;/p&gt;
 &lt;h2&gt;Microsoft and VMware Tanzu Collaboration Continues&lt;/h2&gt;
 &lt;p&gt;Microsoft collaboration with the Spring team, which began in 2016, has been fundamental to our shared goal of enabling Spring apps to fully harness the power of the cloud. We have listened to Spring developers express their desire to focus on their application code and business logic, rather than being bogged down by the complexities of managing, securing, and scaling infrastructure, containers, and virtual machines. To address this, Microsoft and VMware Tanzu teamed up to establish Azure Spring Apps - an initiative aimed at simplifying your development and operations workflows and expediting your journey from code to production. As a key service within the Microsoft Azure ecosystem, Azure Spring Apps has already garnered significant traction. Many customers including &lt;a href=&quot;https://aka.ms/Bosch.IO&quot;&gt;Bosch&lt;/a&gt;, &lt;a href=&quot;https://aka.ms/DLR&quot;&gt;Digital Realty&lt;/a&gt;, &lt;a href=&quot;https://aka.ms/FedEx&quot;&gt;FedEx&lt;/a&gt;, &lt;a href=&quot;https://aka.ms/kroger-on-azure&quot;&gt;Kroger&lt;/a&gt;, &lt;a href=&quot;https://aka.ms/liantis&quot;&gt;Liantis&lt;/a&gt;, &lt;a href=&quot;https://aka.ms/Morgan-Stanley&quot;&gt;Morgan Stanley&lt;/a&gt;, &lt;a href=&quot;https://aka.ms/National-Life&quot;&gt;National Life&lt;/a&gt;, &lt;a href=&quot;https://aka.ms/raleys&quot;&gt;Raley&apos;s&lt;/a&gt;, and &lt;a href=&quot;https://aka.ms/swiss-re&quot;&gt;Swiss Re&lt;/a&gt; adopted the service for their mission-critical enterprise Java Spring applications.&lt;/p&gt;
@@ -505,148 +513,4 @@ Answer:
 &lt;p&gt;Azure Spring Apps is Azure¡¯s hero destination for running all types of Spring apps, and the most natural place to deploy this sample Spring app. You can deploy the front-end node.js app as a container in Azure Container Apps. In addition to the app, you will also need to provision an Azure Storage blob and Azure OpenAI instance.&lt;/p&gt;
 &lt;p&gt;To simplify the steps involved with getting started, this sample comes with a pre-packaged setup experience in Azure Developer CLI (AZD). Once you¡¯ve installed AZD, follow the instructions in the GitHub readme file and this sample app will be up and running in the cloud in no time.&lt;/p&gt;
 &lt;h2&gt;Try it today&lt;/h2&gt;
-&lt;p&gt;This sample is publicly available on &lt;a href=&quot;https://github.com/Azure-Samples/spring-chatgpt-sample&quot;&gt;GitHub&lt;/a&gt; with step-by-step instructions to get started. Try it today and take advantage of &lt;a href=&quot;https://learn.microsoft.com/en-us/azure/spring-apps/cost-management#monthly-free-grants&quot;&gt;the monthly free&lt;/a&gt; grants from Azure Spring Apps.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Spring Cloud 2021.0.8 (aka Jubilee) Is Available]]></title><link>https://spring.io/blog/2023/06/30/spring-cloud-2021-0-8-aka-jubilee-is-available</link><guid isPermaLink="true">https://spring.io/blog/2023/06/30/spring-cloud-2021-0-8-aka-jubilee-is-available</guid><dc:creator><![CDATA[Marcin Grzejszczak]]></dc:creator><pubDate>Fri, 30 Jun 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;On behalf of the community, I am pleased to announce that the General Availability (RELEASE) of the &lt;a href=&quot;https://cloud.spring.io&quot;&gt;Spring Cloud 2021.0.8&lt;/a&gt; Release Train is available today. The release can be found in &lt;a href=&quot;https://repo1.maven.org/maven2/org/springframework/cloud/spring-cloud-dependencies/2021.0.8/&quot;&gt;Maven Central&lt;/a&gt;. You can check out the 2021.0.8 &lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-release/wiki/Spring-Cloud-2021.0-Release-Notes&quot;&gt;release notes for more information&lt;/a&gt;.&lt;/p&gt;
-&lt;h2&gt;Notable Changes in the 2021.0.8 release&lt;/h2&gt;
-&lt;h3&gt;Spring Cloud Commons&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Spring Cloud LoadBalancer - allow chain filtering of instances based on requests (&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-commons/issues/1227&quot;&gt;#1227 &lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;p&gt;The following modules were updated as part of 2021.0.8:&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Module&lt;/th&gt;
-&lt;th&gt;Version&lt;/th&gt;
-&lt;th&gt;Issues&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Spring Cloud Kubernetes&lt;/td&gt;
-&lt;td&gt;2.1.8&lt;/td&gt;
-&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-kubernetes/releases/tag/v2.1.8&quot;&gt;tag&lt;/a&gt;)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Spring Cloud Task&lt;/td&gt;
-&lt;td&gt;2.4.6&lt;/td&gt;
-&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-task/releases/tag/v2.4.6&quot;&gt;tag&lt;/a&gt;)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Spring Cloud Function&lt;/td&gt;
-&lt;td&gt;3.2.11&lt;/td&gt;
-&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-function/releases/tag/v3.2.11&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Spring Cloud Commons&lt;/td&gt;
-&lt;td&gt;3.1.7&lt;/td&gt;
-&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-commons/milestone/114?closed=1&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Spring Cloud Circuitbreaker&lt;/td&gt;
-&lt;td&gt;2.1.7&lt;/td&gt;
-&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-circuitbreaker/releases/tag/v2.1.7&quot;&gt;tag&lt;/a&gt;)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Spring Cloud Openfeign&lt;/td&gt;
-&lt;td&gt;3.1.8&lt;/td&gt;
-&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-openfeign/milestone/63?closed=1&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Spring Cloud Gateway&lt;/td&gt;
-&lt;td&gt;3.1.8&lt;/td&gt;
-&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-gateway/milestone/84?closed=1&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Spring Cloud Stream&lt;/td&gt;
-&lt;td&gt;3.2.9&lt;/td&gt;
-&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-stream/releases/tag/v3.2.9&quot;&gt;tag&lt;/a&gt;)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Spring Cloud Contract&lt;/td&gt;
-&lt;td&gt;3.1.8&lt;/td&gt;
-&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-contract/milestone/102?closed=1&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Spring Cloud Config&lt;/td&gt;
-&lt;td&gt;3.1.8&lt;/td&gt;
-&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-config/milestone/116?closed=1&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Spring Cloud Build&lt;/td&gt;
-&lt;td&gt;3.1.8&lt;/td&gt;
-&lt;td&gt;?&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Spring Cloud Starter Build&lt;/td&gt;
-&lt;td&gt;2021.0.8&lt;/td&gt;
-&lt;td&gt;?&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Spring Cloud Netflix&lt;/td&gt;
-&lt;td&gt;3.1.7&lt;/td&gt;
-&lt;td&gt;(&lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-netflix/milestone/123?closed=1&quot;&gt;issues&lt;/a&gt;)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;As always, we welcome feedback on &lt;a href=&quot;https://github.com/spring-cloud/&quot;&gt;GitHub&lt;/a&gt;, on &lt;a href=&quot;https://gitter.im/spring-cloud/spring-cloud&quot;&gt;Gitter&lt;/a&gt;, on &lt;a href=&quot;https://stackoverflow.com/questions/tagged/spring-cloud&quot;&gt;Stack Overflow&lt;/a&gt;, or on &lt;a href=&quot;https://twitter.com/SpringCloud&quot;&gt;Twitter&lt;/a&gt;.&lt;/p&gt;
-&lt;h2&gt;Roadmap&lt;/h2&gt;
-&lt;p&gt;Please watch our &lt;a href=&quot;https://github.com/orgs/spring-cloud/projects/110&quot;&gt;Github Projects&lt;/a&gt; and &lt;a href=&quot;https://github.com/spring-cloud/spring-cloud-release/milestones?direction=asc&amp;#x26;sort=due_date&amp;#x26;state=open&quot;&gt;Release Milestones&lt;/a&gt; to track our 2021.0 Release Train (aka Jubilee).&lt;/p&gt;
-&lt;h2&gt;Getting Started With 2021.0.8&lt;/h2&gt;
-&lt;p&gt;To get started with Maven with a BOM (dependency management only):&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-xml&quot;&gt;
-&amp;#x3C;dependencyManagement&gt;
-    &amp;#x3C;dependencies&gt;
-        &amp;#x3C;dependency&gt;
-            &amp;#x3C;groupId&gt;org.springframework.cloud&amp;#x3C;/groupId&gt;
-            &amp;#x3C;artifactId&gt;spring-cloud-dependencies&amp;#x3C;/artifactId&gt;
-            &amp;#x3C;version&gt;2021.0.8&amp;#x3C;/version&gt;
-            &amp;#x3C;type&gt;pom&amp;#x3C;/type&gt;
-            &amp;#x3C;scope&gt;import&amp;#x3C;/scope&gt;
-        &amp;#x3C;/dependency&gt;
-    &amp;#x3C;/dependencies&gt;
-&amp;#x3C;/dependencyManagement&gt;
-&amp;#x3C;dependencies&gt;
-    &amp;#x3C;dependency&gt;
-        &amp;#x3C;groupId&gt;org.springframework.cloud&amp;#x3C;/groupId&gt;
-        &amp;#x3C;artifactId&gt;spring-cloud-starter-config&amp;#x3C;/artifactId&gt;
-    &amp;#x3C;/dependency&gt;
-    &amp;#x3C;dependency&gt;
-        &amp;#x3C;groupId&gt;org.springframework.cloud&amp;#x3C;/groupId&gt;
-        &amp;#x3C;artifactId&gt;spring-cloud-starter-netflix-eureka-client&amp;#x3C;/artifactId&gt;
-    &amp;#x3C;/dependency&gt;
-    ...
-&amp;#x3C;/dependencies&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;or with Gradle:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-groovy&quot;&gt;plugins {
-  id &apos;java&apos;
-  id &apos;org.springframework.boot&apos; version &apos;2.6.15&apos;
-  id &apos;io.spring.dependency-management&apos; version &apos;1.1.0&apos;
-}
-
-repositories {
-  mavenCentral()
-}
-
-ext {
-  set(&apos;springCloudVersion&apos;, &quot;2021.0.8&quot;)
-}
-
-dependencies {
-  implementation &apos;org.springframework.cloud:spring-cloud-starter-config&apos;
-  implementation &apos;org.springframework.cloud:spring-cloud-starter-netflix-eureka-client&apos;
-}
-
-dependencyManagement {
-  imports {
-    mavenBom &quot;org.springframework.cloud:spring-cloud-dependencies:${springCloudVersion}&quot;
-  }
-}
-&lt;/code&gt;&lt;/pre&gt;</content:encoded></item><item><title><![CDATA[A Bootiful Podcast: Elastic's Philipp Krenn ]]></title><link>https://spring.io/blog/2023/06/29/a-bootiful-podcast-elastics-philipp-krenn</link><guid isPermaLink="true">https://spring.io/blog/2023/06/29/a-bootiful-podcast-elastics-philipp-krenn</guid><dc:creator><![CDATA[Josh Long]]></dc:creator><pubDate>Thu, 29 Jun 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Hi Spring fans! Welcome to another installment of a Bootiful Podcast! In this installment, &lt;a href=&quot;https://youtube.com/bootiful&quot;&gt;Josh Long&lt;/a&gt; talks to Elastic&apos;s &lt;a href=&quot;https://twitter.com/xeraa&quot;&gt;Philipp Krenn&lt;/a&gt;, live from Spring IO 2023 in beautiful Barcelona, Spain!&lt;/p&gt;
-&lt;iframe title=&quot;Elastic¡¯s Philipp Krenn&quot; allowtransparency=&quot;true&quot; height=&quot;150&quot; width=&quot;100%&quot; style=&quot;border: none; min-width: min(100%, 430px);&quot; scrolling=&quot;no&quot; data-name=&quot;pb-iframe-player&quot; src=&quot;https://www.podbean.com/player-v2/?i=7qi8h-144553e-pb&amp;from=pb6admin&amp;share=1&amp;download=1&amp;rtl=0&amp;fonts=Arial&amp;skin=1&amp;font-color=&amp;logo_link=episode_page&amp;btn-skin=7&quot;&gt;&lt;/iframe&gt;</content:encoded></item><item><title><![CDATA[Spring Shell 2.1.11, 3.0.6 and 3.1.2 are now available]]></title><link>https://spring.io/blog/2023/06/28/spring-shell-2-1-11-3-0-6-and-3-1-2-are-now-available</link><guid isPermaLink="true">https://spring.io/blog/2023/06/28/spring-shell-2-1-11-3-0-6-and-3-1-2-are-now-available</guid><dc:creator><![CDATA[Janne Valkealahti]]></dc:creator><pubDate>Wed, 28 Jun 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Spring Shell 2.1.11, 3.0.6 and 3.1.2 are now available&lt;/p&gt;
-&lt;p&gt;On behalf of the team and everyone who has contributed, I&apos;m happy to announce that Spring Shell &lt;code&gt;2.1.11&lt;/code&gt;, &lt;code&gt;3.0.6&lt;/code&gt; and &lt;code&gt;3.1.2&lt;/code&gt; has been released and are now available from Maven Central.&lt;/p&gt;
-&lt;p&gt;Please see the &lt;a href=&quot;https://github.com/spring-projects/spring-shell/releases/tag/v2.1.11&quot;&gt;release notes 2.1.11&lt;/a&gt;, &lt;a href=&quot;https://github.com/spring-projects/spring-shell/releases/tag/v3.0.6&quot;&gt;release notes 3.0.6&lt;/a&gt; and &lt;a href=&quot;https://github.com/spring-projects/spring-shell/releases/tag/v3.1.2&quot;&gt;release notes 3.1.2&lt;/a&gt; for more details.&lt;/p&gt;
-&lt;p&gt;Thanks to all those who have contributed with issue reports and pull requests.&lt;/p&gt;
-&lt;h3&gt;How can you help?&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&quot;https://spring.io/projects/spring-shell/&quot;&gt;Project Page&lt;/a&gt; | &lt;a href=&quot;https://github.com/spring-projects/spring-shell&quot;&gt;GitHub&lt;/a&gt; | &lt;a href=&quot;https://github.com/spring-projects/spring-shell/issues&quot;&gt;Issues&lt;/a&gt; | &lt;a href=&quot;https://docs.spring.io/spring-shell/docs/3.1.2/docs/index.html&quot;&gt;Documentation&lt;/a&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;This sample is publicly available on &lt;a href=&quot;https://github.com/Azure-Samples/spring-chatgpt-sample&quot;&gt;GitHub&lt;/a&gt; with step-by-step instructions to get started. Try it today and take advantage of &lt;a href=&quot;https://learn.microsoft.com/en-us/azure/spring-apps/cost-management#monthly-free-grants&quot;&gt;the monthly free&lt;/a&gt; grants from Azure Spring Apps.&lt;/p&gt;</content:encoded></item></channel></rss>

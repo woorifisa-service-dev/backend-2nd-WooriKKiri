@@ -27,7 +27,7 @@ import lombok.Setter;
 public class Post extends BaseEntity{
 	
 	@ManyToOne
-	@JoinColumn()
+	@JoinColumn
 	private User user;
 	
 	private String title;
@@ -37,9 +37,9 @@ public class Post extends BaseEntity{
 	
 	private String content;
 	
-	// TODO: 사진 업로드 기능 나중에 구현 
 //	@ElementCollection
 //	private List<String> photo;
+
 	
 	@Column(name = "is_recruit")
 	private boolean isRecruit;
