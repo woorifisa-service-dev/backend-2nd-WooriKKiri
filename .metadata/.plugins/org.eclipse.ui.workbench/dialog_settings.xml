@@ -8,4 +8,11 @@
 			<item value="org.eclipse.jst.ws.ui.new"/>
 		</list>
 	</section>
+	<section name="ImportExportAction">
+		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.buildship.ui.wizards.project.import"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.buildship.ui.importwizards"/>
+			<item value="org.eclipse.tm4e.ui.wizards"/>
+		</list>
+	</section>
 </section>

@@ -1,5 +1,0 @@
-package dev.woori.kkiri.boot.model;
-
-public class BaseEntity {
-
-}
