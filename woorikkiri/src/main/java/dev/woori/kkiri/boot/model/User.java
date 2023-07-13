@@ -46,6 +46,7 @@ public class User extends BaseEntity {
 	@CreationTimestamp
 	private LocalDate userJoinDate;
 	
+	@JsonIgnore 
 	@OneToMany(cascade = CascadeType.ALL, mappedBy = "user")
 	private List<Post> posts = new ArrayList<>();
 
@@ -63,7 +64,7 @@ public class User extends BaseEntity {
 	@Override
 	public String toString() {
 		return "User [password=" + password + ", className=" + className + ", name=" + name + ", phoneNum=" + phoneNum
-				+ ", posts=" + posts + "]";
+				+ "]";
 	}
 	
 }

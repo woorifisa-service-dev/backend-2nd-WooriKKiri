@@ -5,13 +5,11 @@ import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 
-import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.validation.Errors;
 import org.springframework.validation.FieldError;
 
-import dev.woori.kkiri.boot.dto.LoginDTO;
 import dev.woori.kkiri.boot.dto.UserSaveDTO;
 import dev.woori.kkiri.boot.model.User;
 import dev.woori.kkiri.boot.repository.UserRepository;
@@ -65,19 +63,19 @@ public class UserServiceImpl implements UserService {
 	@Override
 	public List<User> findAll() {
 		// TODO Auto-generated method stub
-		return null;
+		return userRepository.findAll();
 	}
 
 	@Override
 	public User findById(Long id) {
 		// TODO Auto-generated method stub
-		return null;
+		return userRepository.findById(id).get();
 	}
 
 	@Override
 	public User save(User object) {
 		// TODO Auto-generated method stub
-		return null;
+		return userRepository.save(object);
 	}
 
 	@Override

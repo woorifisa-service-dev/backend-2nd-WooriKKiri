@@ -45,7 +45,7 @@ public class PostController {
 				.map(PostResponse::from)
 				.collect(Collectors.toList());
 		log.info("hello");
-		System.out.println(postResponse);
+		System.out.println(posts);
 		return ResponseEntity.ok(postResponse);
 	}
 	
