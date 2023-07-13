@@ -1,6 +1,7 @@
 package dev.woori.kkiri.boot.service;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 
@@ -10,8 +11,8 @@ import org.springframework.transaction.annotation.Transactional;
 import org.springframework.validation.Errors;
 import org.springframework.validation.FieldError;
 
-import dev.woori.kkiri.boot.DTO.LoginDTO;
-import dev.woori.kkiri.boot.DTO.UserSaveDTO;
+import dev.woori.kkiri.boot.dto.LoginDTO;
+import dev.woori.kkiri.boot.dto.UserSaveDTO;
 import dev.woori.kkiri.boot.model.User;
 import dev.woori.kkiri.boot.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
@@ -61,4 +62,35 @@ public class UserServiceImpl implements UserService {
 		return userRepository.findByUserIdAndPassword(userId, password);
 	}
 
+	@Override
+	public List<User> findAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public User findById(Long id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public User save(User object) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void delete(User object) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void deleteById(Long id) {
+		// TODO Auto-generated method stub
+		
+	}
+
 }
+

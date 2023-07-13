@@ -1,13 +1,17 @@
 package dev.woori.kkiri.boot.model;
 
+import java.time.LocalDate;
 import java.util.Date;
 import java.util.List;
 
 import javax.persistence.Column;
+import javax.persistence.ElementCollection;
 import javax.persistence.Entity;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import lombok.AccessLevel;
 import lombok.Builder;
@@ -17,7 +21,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-@NoArgsConstructor(access = AccessLevel.PROTECTED)
+@NoArgsConstructor
 @Entity
 @Table(name = "post")
 public class Post extends BaseEntity{
@@ -29,17 +33,19 @@ public class Post extends BaseEntity{
 	private String title;
 	
 	@Column(name = "post_date")
-	private Date postDate;
+	private LocalDate postDate;
 	
 	private String content;
 	
-	//private List<String> photo;
+//	@ElementCollection
+//	private List<String> photo;
+
 	
 	@Column(name = "is_recruit")
 	private boolean isRecruit;
 
 	@Builder
-	public Post(Long id, User user, String title, Date postDate, String content,
+	public Post(Long id, User user, String title, LocalDate postDate, String content,
 			boolean isRecruit) {
 		super(id);
 		this.user = user;

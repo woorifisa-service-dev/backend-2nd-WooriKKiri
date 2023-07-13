@@ -17,9 +17,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import dev.woori.kkiri.boot.DTO.LoginDTO;
-import dev.woori.kkiri.boot.DTO.UserSaveDTO;
-import dev.woori.kkiri.boot.Validator.CheckErrorValidator;
+import dev.woori.kkiri.boot.dto.LoginDTO;
+import dev.woori.kkiri.boot.dto.UserSaveDTO;
+import dev.woori.kkiri.boot.validator.CheckErrorValidator;
 import dev.woori.kkiri.boot.model.User;
 import dev.woori.kkiri.boot.security.SessionConstants;
 import dev.woori.kkiri.boot.service.UserService;

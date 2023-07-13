@@ -12,6 +12,8 @@ import javax.persistence.Table;
 
 import org.hibernate.annotations.CreationTimestamp;
 
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.AccessLevel;
 import lombok.Builder;
 import lombok.Data;
@@ -25,6 +27,7 @@ import lombok.Setter;
 @Entity
 @Table(name = "user")
 public class User extends BaseEntity {
+
 	@Column(name = "user_pw")
 	private String password;
 	
@@ -56,7 +59,6 @@ public class User extends BaseEntity {
 		this.name = name;
 		this.phoneNum = phoneNum;
 		this.userJoinDate = userJoinDate;
-		//this.posts = posts;
 	}
 
 	@Override
