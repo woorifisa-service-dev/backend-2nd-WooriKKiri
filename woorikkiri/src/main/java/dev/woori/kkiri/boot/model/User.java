@@ -12,10 +12,11 @@ import javax.persistence.Table;
 
 import org.hibernate.annotations.CreationTimestamp;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.AccessLevel;
 import lombok.Builder;
+import lombok.Data;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -26,7 +27,7 @@ import lombok.Setter;
 @Entity
 @Table(name = "user")
 public class User extends BaseEntity {
-	
+
 	@Column(name = "user_pw")
 	private String password;
 	
@@ -48,7 +49,7 @@ public class User extends BaseEntity {
 	
 	@OneToMany(cascade = CascadeType.ALL, mappedBy = "user")
 	private List<Post> posts = new ArrayList<>();
-
+//, List<Post> posts
 	@Builder
 	public User(Long id, String userId, String password, String className, String name, String phoneNum, LocalDate userJoinDate) {
 		super(id);
@@ -62,7 +63,7 @@ public class User extends BaseEntity {
 
 	@Override
 	public String toString() {
-		return "User [password=" + password + ", className=" + className + ", name=" + name + ", phoneNum=" + phoneNum
+		return "User [id=" + userId + ", password=" + password + ", className=" + className + ", name=" + name + ", phoneNum=" + phoneNum
 				+ ", posts=" + posts + "]";
 	}
 	

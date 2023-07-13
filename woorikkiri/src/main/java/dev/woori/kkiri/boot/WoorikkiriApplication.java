@@ -9,5 +9,4 @@ public class WoorikkiriApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(WoorikkiriApplication.class, args);
 	}
-
 }

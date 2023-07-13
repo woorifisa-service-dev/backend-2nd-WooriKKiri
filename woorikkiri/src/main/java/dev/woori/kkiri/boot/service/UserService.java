@@ -18,5 +18,4 @@ public interface UserService extends CrudService<User, Long>{
 	Long join(UserSaveDTO userSaveDTO);
 	
 	Optional<User> findByUserIdAndPassword(String userId, String password);
-
 }
