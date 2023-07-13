@@ -48,6 +48,7 @@ public class User extends BaseEntity {
 	private LocalDate userJoinDate;
 	
 	@OneToMany(cascade = CascadeType.ALL, mappedBy = "user")
+	@JsonIgnore
 	private List<Post> posts = new ArrayList<>();
 //, List<Post> posts
 	@Builder

@@ -1,7 +1,6 @@
 package dev.woori.kkiri.boot.dto;
 
 import java.time.LocalDate;
-import java.util.Date;
 
 import dev.woori.kkiri.boot.model.Post;
 import dev.woori.kkiri.boot.model.User;
