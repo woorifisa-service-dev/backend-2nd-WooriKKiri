@@ -75,9 +75,15 @@ public class PostController {
 	// Vue.js 지선생 도움 받아서 만들어보기, 스프링부트 파일이랑 연결해보기  
 	
 	// 게시글 수정 
-	@GetMapping("/edit/{postId}")
-	public ResponseEntity<PostResponse> editPosts(@PathVariable Long postId){
+	@GetMapping("/edit/{postId}/{userId}")
+	public ResponseEntity<PostResponse> editPosts(@PathVariable Long postId, @PathVariable Long userId){
 		Post post = postService.findById(postId);
+		
+		User user = post.getUser();
+		if (user == null || !user.getId().equals(userId)) {
+			// 수정 하려는 유저와 게시글 작성자가 다른 경우 에러 응답을 반환
+			return ResponseEntity.status(HttpStatus.UNAUTHORIZED).build();
+		}
 		
 		// 수정하려는 게시글이 없는 경우 에러 응답을 반환하거나 다른 처리 수행 
 		if (post == null) {
