@@ -1,5 +1,6 @@
 package dev.woori.kkiri.boot.model;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -8,6 +9,8 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
+
+import org.hibernate.annotations.CreationTimestamp;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
@@ -24,28 +27,37 @@ import lombok.Setter;
 @Table(name = "user")
 public class User extends BaseEntity {
 	
+	@Column(name = "user_pw")
 	private String password;
 	
 	@Column(name = "class_name")
 	private String className;
 	
+	@Column(name = "user_id")
+	private String userId;
+	
+	@Column(name = "user_name")
 	private String name;
 	
-	@Column(name = "phone_num")
+	@Column(name = "user_phone_num")
 	private String phoneNum;
 	
-	@JsonIgnore
+	@Column(name = "user_join_date")
+	@CreationTimestamp
+	private LocalDate userJoinDate;
+	
 	@OneToMany(cascade = CascadeType.ALL, mappedBy = "user")
 	private List<Post> posts = new ArrayList<>();
 
 	@Builder
-	public User(Long id, String password, String className, String name, String phoneNum, List<Post> posts) {
+	public User(Long id, String userId, String password, String className, String name, String phoneNum, LocalDate userJoinDate) {
 		super(id);
+		this.userId = userId;
 		this.password = password;
 		this.className = className;
 		this.name = name;
 		this.phoneNum = phoneNum;
-		this.posts = posts;
+		this.userJoinDate = userJoinDate;
 	}
 
 	@Override

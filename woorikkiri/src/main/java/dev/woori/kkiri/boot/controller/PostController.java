@@ -24,7 +24,7 @@ import dev.woori.kkiri.boot.service.PostService;
 import dev.woori.kkiri.boot.service.UserService;
 import lombok.extern.slf4j.Slf4j;
 @Slf4j
-@RequestMapping("/post")
+@RequestMapping("/home")
 @RestController
 public class PostController {
 	
@@ -37,7 +37,7 @@ public class PostController {
 	}
 	
 	// 모든 게시글 조회 
-	@GetMapping("/list")
+	@GetMapping("/posts")
 	public ResponseEntity<List<PostResponse>> listPosts(){
 		List<Post> posts = postService.findAll();
 		
