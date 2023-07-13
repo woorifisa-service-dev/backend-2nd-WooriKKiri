@@ -9,6 +9,8 @@ import javax.persistence.Entity;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import lombok.AccessLevel;
 import lombok.Builder;
 import lombok.Getter;
@@ -33,6 +35,7 @@ public class User extends BaseEntity {
 	private String phoneNum;
 	
 	@OneToMany(cascade = CascadeType.ALL, mappedBy = "user")
+	@JsonIgnore // 직렬화 무시
 	private List<Post> posts = new ArrayList<>();
 
 	@Builder
