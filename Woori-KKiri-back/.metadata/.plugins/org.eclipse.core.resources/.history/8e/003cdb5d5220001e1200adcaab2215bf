@@ -1,0 +1,43 @@
+package dev.woori.kkiri.boot.model;
+
+import java.util.List;
+
+import javax.persistence.CascadeType;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.OneToOne;
+import javax.persistence.Table;
+
+import lombok.AccessLevel;
+import lombok.Builder;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Getter
+@Setter
+@NoArgsConstructor(access = AccessLevel.PROTECTED)
+@Entity
+@Table(name = "mypage")
+public class MyPage extends BaseEntity{
+	
+	@Column(name = "mypage_id")
+	private Long id;
+	@OneToOne(cascade = CascadeType.ALL, mappedBy = "user_id")
+	private Long userId;
+	private List<Post> postList;
+
+	@Builder
+	public MyPage(Long id, Long id2, Long userId, List<Post> postList) {
+		super(id);
+		id = id2;
+		this.userId = userId;
+		this.postList = postList;
+	}
+	@Override
+	public String toString() {
+		return "MyPage [id=" + id + ", userId=" + userId + ", postList=" + postList + "]";
+	}
+	
+
+}
